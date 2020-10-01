@@ -1,0 +1,500 @@
+*{
+padding:0px;
+margin:0px;
+}
+ .nav_bg{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: #979aaa;
+    position:fixed;
+    z-index:30;
+}
+.nav_bg .inside-container{
+ 
+}
+.nav_bg .inside-container .bars{
+  
+    position: absolute;;
+    right:14%;
+    padding:10px 4px 0px 3px;
+   
+}
+.nav_bg .inside-container .bars .bar{
+ 
+color:white;
+padding-top:3px;
+font-size:20px;
+
+   
+}
+
+/*--side-menu--*/
+.side-menu{
+    height:100%;
+     width:22%;
+     font-size:15px;
+     float:left;
+     background-color:rgb(32, 28, 28); 
+     display:none;
+     z-index:114;  
+     box-shadow: 0px 0px 4px 1px black;
+     position:fixed;
+     right:0px;
+ }
+ .side-menu .side-logo{
+   margin:1px 10px;
+ }
+ .side-menu ul{
+    margin-left: 10px;
+    color:black;
+ }
+ .side-menu ul li a{
+     color:black; 
+     color:white;
+     font-size:1.4em;
+     text-decoration: none;
+  }
+  .side-menu ul li a:hover{
+    color:#6b4a9e; 
+ }
+  .side-menu ul li a .fa{
+
+    font-size:.8em;
+    margin:0 .4em;
+ }
+ .side-menu ul li{
+    list-style-type: none;
+  margin-left:2.4em;
+    cursor:pointer;
+
+    padding:10px 4px;
+  }
+  .side-menu ul li:hover{
+
+ }
+ .side-menu ul li ul{
+     display: none;
+     z-index:10;
+     top:80px;
+ }
+ .side-menu ul li:hover ul{
+     display: block;
+   height:400px;
+   margin-left:13%;
+     padding: 0 100px 10px 10px;
+     position:fixed;
+    
+     box-shadow:1px 1px 4px 1px rgba(0,0,0,.5)
+ }
+
+ #menu-btn,#close-btn
+ {
+     font-size: 30px;
+     margin:10px;
+     color:#ececec;
+     display:block;
+ }
+ .slide-heading{
+     color:rgb(238, 228, 228);
+     margin-top:8px;
+     margin-bottom:12px;
+      background-color:rgba(2, 23, 19, 0); 
+      padding:10px 10px;
+      margin-right:2%;
+ }
+ .cross{
+     width:100%;
+     padding:0px;
+     
+ }
+ .cross #close-btn{
+     color:whitesmoke;
+     float:right; 
+     font-size:25px; 
+     
+ }
+ .cross .fa-times{
+    
+ }
+
+   #menu-btn{
+        display: block;
+    }
+
+/*-----------------carousel-------------*/
+ .carousel1-margin{
+     position: relative;;
+     top:-10px;
+     margin:0px;
+     padding:0px;   
+ }
+ .excitel_broad{
+    color: #6b4a9e;
+    font-size:3em;
+    font-weight:700;
+    text-transform: uppercase;
+ }
+ .excitel_broad_p{
+    color: #0dadac;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+ }
+ .factor .our_factor{
+    color: #10adad;
+    font-size: 3rem!important;
+    font-weight:700;
+ }
+ .hr_yellow{
+    width:100px;
+    border:2px solid #daeb17;
+    margin:10px auto;
+     }
+ .hr_orange{
+width:100px;
+border:2px solid rgb(243, 147, 112);
+margin:10px auto;
+ }
+
+ .factor .our_factor_p{
+ text-align: center;
+    color: #639;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 10px; 
+}
+
+.exciting_plan{
+    background-color: #eeeeee71!important;
+  
+    border-radius: 5px;
+    margin:0;
+    padding: 10px 15px;
+}
+ .select_City{
+ padding:0px 34%;
+
+}
+ .select_City select{
+    background-color: #eeeeee!important;
+    border:1px solid #10adad!important;
+    border-radius:4px;
+    padding:0px 15px;
+    color:#639;
+   }
+   .exciting_plan table{
+       margin:0 auto;
+   }
+
+   table .reeltime_th{
+    background-color: #10adad!important;
+    color:white;
+    font-size: 1em;
+    text-align: center;
+
+   }
+   table .reeltime_th span{
+   font-size:.6em;
+   
+   }
+   table .reeltime_td{
+    background-color: rgb(235, 227, 227)!important;
+    color:#639;
+    text-align: center;
+    font-size: 1.3em;
+   }
+   .table th,table td{
+   border-right:1px solid rgb(196, 193, 193);
+   font-weight: 700;
+   
+   }
+ 
+   .table_cap1{
+   color:rgba(128, 128, 128, 0.897);
+   }
+   table .reeltime_tf1{
+    background-color: #10adad!important;
+    color:white;
+    font-size: .8em;
+    text-align: center;
+   }
+   table .reeltime_tf2{
+    background-color: #639;
+    color:white;
+    font-size: .8em;
+    text-align: center;
+   }
+.table_cap2{
+    color:rgba(128, 128, 128, 0.897);
+}
+.take_us{
+ background-color:rgba(235, 231, 231, 0.671);
+}
+.take_in{
+    background-color:red;
+     margin-top:1em;
+}
+.hr_yellow_take{
+     width:100px;
+   border:2px solid #daeb17;
+}
+ .hr_purple_take{
+     width:100px;
+     border:2px solid #639;
+}
+.feat1{
+       color:orangered;
+ }
+ .feat2{
+    color:#10adad!important;;
+}
+
+/*---coverage part--*/
+.coverage{
+    background-color: #639;
+
+}
+.coverage-heading{
+color:white;
+padding-top:20px;
+font-weight:700;
+
+}
+.preferred_city{
+   text-align: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preferred_city select{
+     background-color: #eeeeee!important;
+     border-radius:20px;
+     padding:10px 65px;
+     color:#639;
+     text-decoration: none;
+     width:20%;
+     text-align: center;
+   margin:0 auto;
+}
+.preferred_p{
+    color: white; 
+     font-size: 16px;
+      text-align: center;
+ }
+.take_us .featurette p{
+   color:rgb(114, 30, 199);
+   font-size:1.1em;
+   font-weight: 400;
+ }
+
+ /*--------------------------------*/
+.vc_custom_1539936768169 {
+    background-image: url(https://www.excitel.com/wp-content/uploads/2018/10/app-bg.jpg?id=1005) !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+ }
+.install-heading{
+    color:white;
+    padding-top:20px;
+    font-weight:700;
+    font-size:3em;  
+    }
+.vc_custom_1539936768169 .app-store{
+        background-color: #10adad!important;
+        font-size:.8em;
+        font-weight:700;
+        color:white;
+        padding:18px 14px;
+        border-radius:40px;
+        width:230px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+ .vc_custom_1539936768169 .app-store:hover{
+     background: #6c499d;
+    color:black;
+}
+.vc_custom_1539936768169 .app-store  .fa{ 
+     font-size:2em;
+     padding-right:3px;
+           
+}
+.vc_custom_1539936768169 .play-store  .fa{ 
+    font-size:1.4em;
+     padding-right:3px;         
+}
+.vc_custom_1539936768169 .play-store{
+    font-size:.9em;
+    font-weight:400;
+    color:white;
+    background-color: #10adad!important;
+    padding:18px 0px;
+     border-radius:40px;
+     width:230px;
+      font-weight:700;
+     cursor: pointer;
+        
+}
+.store_collection{
+  display:flex;
+   flex-direction: column;
+   padding-left:18%;
+   padding-top:4%;
+    }
+.footer{
+    background: #6c499d;
+    
+
+}
+.footer ul li  a{
+  color:white;
+font-size:.8em;
+text-align: center;
+}
+.footer ul{
+list-style-type: none;
+display:inline-block;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin:0 auto;
+
+}
+.footer ul li{
+    display:inline-block;
+    list-style-type: none;
+    float:left;
+    padding-top:10px;
+    padding-left: 20px;
+   
+    justify-content: center;
+align-items: center;
+align-content: center;
+    }
+ .footer .makeit_center{
+        text-align: center;
+}
+.reserved-container{
+  color:white;
+  background-color: #10adad;
+ }
+.reserved-p{
+   color:white;
+   margin-bottom:0;    
+}
+.get_excitel{
+    position: fixed;
+    top:47%;
+    right:1px;
+}
+
+
+
+@media only screen and (max-width:1008px){
+    .install-heading{
+        color:white;
+    padding-top:20px;
+    font-weight:700;
+    font-size:2em;  
+    }
+}
+
+@media only screen and (max-width:760px){
+.side-menu{
+   width:100%;
+      
+}
+.nav_bg{
+    background-color: white;
+    color:black;
+    position: relative;
+      
+    }
+.nav_bg .inside-container .bars .bar{
+    color:rgba(0, 0, 0, 0.801);
+    padding-top:3px;
+    font-size:18px;         
+}
+ .carousel1-margin{
+    position: relative;
+    margin:0px;
+    padding:0px;   
+        }
+.excitel_broad{
+   font-size:2.1em;
+   text-align: center;
+ }
+ table .reeltime_th{
+  font-size:.9em;
+ text-align: center;
+        
+ }
+table .reeltime_th span{
+    font-size:.7em;
+           
+}
+ table .reeltime_td{
+ background-color: rgb(235, 227, 227)!important;
+ color:#639;
+ text-align: center;
+ font-size: 1em;
+         
+ }
+  .table th,table td{
+ border-right:1px solid rgb(196, 193, 193);
+ font-weight: 700;
+
+ }
+ .factor .our_factor{
+ color: #10adad;
+    font-size: 2rem!important;
+     font-weight:700;
+}
+.reel-head{
+    font-size:1.8em;
+ }
+ .vc_custom_1539936768169 {
+  background-position: left !important;     
+     }
+     .store_collection{
+    
+         padding-left:22%;
+         padding-bottom:4%;
+          }
+          .preferred_city select{
+            padding:10px 10px;
+            width:130px;
+            text-decoration: none;
+            
+       }
+       .mx-width{
+       
+        height:400px;
+    }
+         
+}
+@media only screen and (max-width:390px){
+    .makeit_center li:nth-child(6){
+        margin-left:10%;
+      }
+      .makeit_center li:nth-child(8){
+        margin-left:17%;
+      }
+      .fiberr th{
+   font-size:.7em;
+      }
+   .exciting_plan table{
+       overflow: hidden;
+   }
+ .preferred_city select{
+      padding:10px 10px;
+      width:130px;
+ }
+
+}
+
+@media only screen and (max-width:724px){
+  
+}

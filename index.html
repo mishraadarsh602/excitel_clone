@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="https://www.excitel.com/wp-content/themes/cloudme-child/images/favicon.png" type="image/gif"
+        sizes="16x16">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excitel</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--font-awesome-cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="container-fluid nav_bg py-2">
+        <div class="container d-flex inside-container">
+            <img class="logo_image" src="https://www.excitel.com/wp-content/uploads/2018/09/logo.png" alt="Excitel Logo"
+                width="189" height="46">
+            <div class="bars d-flex ">
+                <p class="text-light mr-3 logo_text">My Excitel</p>
+                <i class="fa fa-bars bar" id="" onclick="openmenu()" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="header">
+        <div class="side-menu" id="side-menu">
+            <div class="cross"><i class="fa fa-times" id="close-btn" onclick="closemenu()" aria-hidden="true"></i></div>
+            <h6 class="slide-heading"> <img class="logo_image side-logo"
+                    src="https://www.excitel.com/wp-content/uploads/2018/09/logo.png" alt="Excitel Logo" width="189"
+                    height="46">
+            </h6>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Broadband Plans</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a class="" href=""> <i class="fa fa-twitter"></i> </a><a class="" href=""> <i
+                            class="fa fa-instagram"></i> </a><a class="" href=""> <i class="fa fa-facebook"></i> </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--carousel first-->
+    <div class="container-fluid carousel1-margin">
+        <div id="carousel1Indicator" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1Indicator" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1Indicator" data-slide-to="1"></li>
+                <li data-target="#carousel1Indicator" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner carousel-control-image">
+                <div class="carousel-item active">
+                    <img src="https://www.excitel.com/wp-content/uploads/2018/10/banner1_new.jpg" class="d-block w-100 mx-width"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.excitel.com/wp-content/uploads/2019/09/monsoon-banner_2_gif.gif"
+                        class="d-block w-100 mx-width" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.excitel.com/wp-content/uploads/2018/10/banner1_new.jpg" class="d-block w-100 mx-width"
+                        alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1Indicator" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1Indicator" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container my-4 text-center">
+        <h1 class="excitel_broad">Excitel Broadband</h1>
+        <p class="excitel_broad_p">We are obsessed to transform the way young Indians experience entertainment over
+            internet at home.<br>
+            We are connected to over 3,00,000 homes and we are growing fast, very fast!</p>
+    </div>
+    <div class="container factor">
+
+        <h1 class="our_factor text-center">OUR POWER FACTORS</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <hr class="hr_yellow ">
+                <p class="our_factor_p text-center">Super high consistency in performance</p>
+            </div>
+            <div class="col-md-3">
+                <hr class="hr_orange  ">
+                <p class="our_factor_p text-center">European technology to Indian homes</p>
+            </div>
+            <div class="col-md-3">
+                <hr class="hr_yellow ">
+                <p class="our_factor_p text-center">Regional partner network ensures exceptional last mile delivery &
+                    local support</p>
+            </div>
+            <div class="col-md-3">
+                <hr class="hr_orange  ">
+                <p class="our_factor_p text-center">Lightening fast and efficient customer support</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid exciting_plan">
+        <br>
+        <h1 class="excitel_broad text-center my-4">BINGE ON OUR EXCITING PLANS!</h1>
+        <div class="container  ">
+            <div class="row select_City">
+                <p class="excitel_broad_p mx-2 mt-2">Tell us where you live </p>
+                <select class="plan-city-select mx-2">
+                    <option value="">Select City</option>
+                    <option selected="selected" value="delhi-tab" data-val="delhi">Delhi NCR</option>
+                    <option value="hyderabad-tab" data-val="hyderabad">Hyderabad</option>
+                    <option value="jaipur-tab" data-val="jaipur">Jaipur</option>
+                    <option value="bangalore-tab" data-val="bangalore">Bangalore</option>
+                    <option value="lucknow-tab" data-val="lucknow">Lucknow</option>
+                    <option value="kanpur-tab" data-val="kanpur">Kanpur</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <h1 class="text-center reel-head">Reel Time</h1>
+                    <!--------table1-->
+                    <table class="table">
+                        <tr>
+                            <th class="reeltime_th">PREPAID<br>MONTH</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For streamers<br></span>50 Mbps</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For downloaders<br></span>75 Mbps</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For gamers<br></span>100 Mbps</th>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">1</td>
+                            <td class="reeltime_td">&#8377; 695</td>
+                            <td class="reeltime_td">&#8377; 845</td>
+                            <td class="reeltime_td">&#8377; 995</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">3</th>
+                            <td class="reeltime_td">&#8377; 565</td>
+                            <td class="reeltime_td">&#8377; 638</td>
+                            <td class="reeltime_td">&#8377; 752</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">6</td>
+                            <td class="reeltime_td">&#8377; 490</td>
+                            <td class="reeltime_td">&#8377; 597</td>
+                            <td class="reeltime_td">&#8377; 702</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">12</td>
+                            <td class="reeltime_td">&#8377; 436</td>
+                            <td class="reeltime_td">&#8377; 529</td>
+                            <td class="reeltime_td">&#8377; 623</td>
+                        </tr>
+                    </table>
+                    <p class="table_cap1">Cable Installation is up to &#8377;500<br>
+
+                        *Rate per month. GST applicable.</p>
+                </div>
+                <div class="col-md-6 fiberr ">
+                    <h1 class="text-center reel-head ">Fiber</h1>
+                    <!--------table2------------>
+                    <table class="table ">
+                        <tr>
+                            <th class="reeltime_th">PREPAID<br>MONTH</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For streamers<br></span>100 Mbps</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For downloaders<br></span>200 Mbps</th>
+                            <th class="reeltime_th"><span class="reeltime_ths">For gamers<br></span>300 Mbps</th>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">1</td>
+                            <td class="reeltime_td">&#8377; 699</td>
+                            <td class="reeltime_td">&#8377; 849</td>
+                            <td class="reeltime_td">&#8377; 999</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">3</th>
+                            <td class="reeltime_td">&#8377; 565</td>
+                            <td class="reeltime_td">&#8377; 638</td>
+                            <td class="reeltime_td">&#8377; 752</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">6</td>
+                            <td class="reeltime_td">&#8377; 490</td>
+                            <td class="reeltime_td">&#8377; 597</td>
+                            <td class="reeltime_td">&#8377; 702</td>
+                        </tr>
+                        <tr>
+                            <td class="reeltime_td">12</td>
+                            <td class="reeltime_td">&#8377; 436</td>
+                            <td class="reeltime_td">&#8377; 529</td>
+                            <td class="reeltime_td">&#8377; 623</td>
+                        </tr>
+                        <tr>
+                            <th class="reeltime_tf1">RECOMMENDED<br>FIBER DEVICE</th>
+                            <th class="reeltime_tf1">FIBER<br>ROUTER WIFI<br>DUAL BAND</th>
+                            <th class="reeltime_tf1">FIBER<br>ROUTER WIFI<br>DUAL BAND</th>
+                            <th class="reeltime_tf1">FIBER<br>ROUTER WIFI<br>DUAL BAND</th>
+                        </tr>
+                        <tr>
+                            <th class="reeltime_tf2">REFUNDABLE<br>SECURITY<br>DEPOSIT</th>
+                            <th class=" reeltime_tf2 "><br>&#8377; 2000</th>
+                            <th class="reeltime_tf2"><br>&#8377; 2000</th>
+                            <th class="reeltime_tf2"><br>&#8377; 2000</th>
+                        </tr>
+                    </table>
+                    <p class="table_cap2">If you wish to use your own WIFI router, a refundable security deposit for
+                        Fiber Router without WIFI (with LAN) is applicable at &#8377;750.<br><br>
+                        In this case the speed over Wireless will fully depend on the capabilities of your WiFi Router.
+                        <br><br>
+                        *Rate per month. GST applicable.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------take us home part-------------------->
+    <div class="conatiner-fluid take_us pt-4 pb-4">
+        <div class="container mt-4 pb-4">
+            <h1 class="excitel_broad text-center ">TAKE US HOME</h1>
+            <div class="row featurette my-4">
+                <div class="col-md-5">
+                    <img src="img/takeus1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading feat1">We are obsessed! </h2>
+                    <hr class="hr_yellow_take">
+                    <p class="lead">We are obsessed to serve you the best. And we know you are as obsessed with the
+                        internet as we are. Enjoy the best ultra-high-speed broadband services with us, at a speed of up
+                        to 100 Mbps per second! Sounds awesome, right?</p>
+                </div>
+            </div>
+            <div class="row featurette my-4">
+                <div class="col-md-5 order-md-2">
+                    <img src="img/takeus2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading feat2">We keep the hustle going</h2>
+                    <hr class="hr_purple_take">
+                    <p class="lead">We make every second count, ensuring that you always enjoy the best internet
+                        experience! Thanks to our 3 independent high capacity internet routes connected to multiple
+                        international stations, we have the right network backing you up. Our close tie-ups with the
+                        Telcos promise flawless internet connectivity, so that your binging never stops!</p>
+                </div>
+            </div>
+            <div class="row featurette my-4">
+                <div class="col-md-5">
+                    <img src="img/takeus3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading feat1">
+                        We always deliver!</h2>
+                    <hr class="hr_yellow_take">
+                    <p class="lead">We know you love your online content and we've tied up with most of the prominent
+                        media providers as our peers! Google Peering (YouTube & Google Play), Microsoft Peering (Windows
+                        and Xbox Updates and Apps), Extreme Peering (high-speed Web browsing and P2P transfers), Akamai
+                        (Facebook, Hotstar, Live Cricket), Netflix and many more Indian and foreign video-related
+                        services are now just a click away.</p>
+                </div>
+            </div>
+            <div class="row featurette ">
+                <div class="col-md-5 order-md-2">
+                    <img src="img/takeus4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-7 order-md-1">
+                    <h2 class="featurette-heading feat2">We practice empathy </h2>
+                    <hr class="hr_purple_take">
+                    <p class="lead">Your requests, queries or complaints, early in the day or late in the evening, we
+                        got your back, Bruh! If you feel something didn’t go well, open a ticket via our mobile app and
+                        we will rectify it ASAP.You are our bae, and you’ll have a great connection every day.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----our netwrk coverage-->
+    <div class="container-fluid coverage">
+        <h1 class="coverage-heading text-center">OUR NETWORK COVERAGE</h1>
+        <div class="row preferred_city">
+            <p class="preferred_p mx-2 mt-2">Find your preferred area network </p>
+            <select class="preferred-city-select mx-2 mb-4">
+                <option value="">Select City</option>
+                <option selected="selected" value="delhi-tab" data-val="delhi">Delhi NCR</option>
+                <option value="hyderabad-tab" data-val="hyderabad">Hyderabad</option>
+                <option value="jaipur-tab" data-val="jaipur">Jaipur</option>
+                <option value="bangalore-tab" data-val="bangalore">Bangalore</option>
+                <option value="lucknow-tab" data-val="lucknow">Lucknow</option>
+                <option value="kanpur-tab" data-val="kanpur">Kanpur</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0">
+        <iframe id="coverage-map"
+            src="https://locationtracker.blob.core.windows.net/coverage/index.html?infrastructure=0&amp;city=delhi"
+            height="500" width="100%"></iframe>
+    </div>
+
+    <div class="container-fluid vc_custom_1539936768169 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="install-heading text-center">Your one stop App for everything Excitel!</h1>
+                    <p class="preferred_p  mt-2">Browse plans | Pay online</p>
+                    <p class="preferred_p ">Manage your account | Troubleshoot<br></p>
+                </div>
+                <div class="col-md-6 store_collection">
+                    <a class="app-store text-center" href="https://itunes.apple.com/app/id1209076764"><span><i
+                                class="fa fa-apple " aria-hidden="true"></i></span> DOWNLOAD ON APP STORE</a><br>
+                    <a class="play-store text-center"><i class="fa fa-play" aria-hidden="true"></i> GET IN GOOGLE
+                        PLAY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-10 makeit_center">
+                    <ul class="makeit_center">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Excitel Fiber</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-2 text-center">
+                    <ul class="">
+                        <li><a class="" href=""> <i class="fa fa-twitter "></i> </a><a class="" href=""> <i
+                                    class="fa fa-instagram"></i> </a><a class="" href=""> <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid reserved-container">
+        <p class="reserved-p text-center py-3">© 2020 Excitel Broadband Pvt. Ltd. All rights reserved.</p>
+    </div>
+
+    <div class="get_excitel">
+        <img src="https://www.excitel.com/wp-content/themes/cloudme-child/images/form-open-btn.png" alt="">
+    </div>
+
+
+    <script>
+        function openmenu() {
+            document.getElementById("side-menu").style.display = "block";
+            document.getElementById("menu-btn").style.display = "none";
+            document.getElementById("close-btn").style.display = "block";
+        }
+        function closemenu() {
+            document.getElementById("side-menu").style.display = "none";
+            document.getElementById("menu-btn").style.display = "block";
+            document.getElementById("close-btn").style.display = "none";
+        }
+
+    </script>
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
